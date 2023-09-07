@@ -7,6 +7,7 @@ Develop and host a web page using HTML, CSS and JS that showcases specific perso
 ### Hosting:
 
 This project is hosted on Netlify
+
 View project [HERE](https://ameley-hng-stage-one.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/89582e0b-6ea0-4152-a9ac-86dc26d1dc9f/deploy-status)](https://app.netlify.com/sites/ameley-hng-stage-one/deploys)
