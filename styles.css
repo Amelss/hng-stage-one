@@ -9,28 +9,63 @@ body{
 img{
     width: 150px;
     height: 150px;
-   
+    border-radius: 100%;
+    border: 3px #F7DF1E solid;
 }
 
 .display-picture{
     text-align: center;
-   
+    
 }
 
 .grid-container{
     display: grid;
     place-items: center;
     height: 100vh;  
-
 }
 
 .card{
     background-color: #FFFFFF;
     width: 400px;
     height: 450px;
+    border-radius: 20px;
+    border-bottom: 8px #F7DF1E solid;
 }
 
 .time-date{
     display: flex;
-   
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.personal-details{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+  
+}
+
+.track{
+    color: gray;
+    margin-top: -5px;
+}
+
+button{
+    border: none;
+    background-color: #26235C;
+    padding: 5px 30px;
+    border-radius: 5px;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
 }
