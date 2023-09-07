@@ -26,7 +26,7 @@ body{
 
 .card{
     background-color: #FFFFFF;
-    width: 400px;
+    width: 350px;
     height: 450px;
     border-radius: 20px;
     border-bottom: 8px #F7DF1E solid;
@@ -75,4 +75,14 @@ button a{
 .github{
     margin-bottom: -5px; 
     margin-right: 5px;
+}
+
+@media screen and (min-width:900px) {
+    .card{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    border-bottom: 8px #F7DF1E solid;
+}
 }
