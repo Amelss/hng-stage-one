@@ -5,11 +5,22 @@ const getDate = new Date()
 const month = getDate.getMonth()
 const year = getDate.getFullYear()
 const day = new Date().toLocaleString("en-GB", { weekday: "long" });
-const hours = getDate.getHours()
-const minutes = getDate.getMinutes()
 
+
+const updateTime = function () {
+const getTime = new Date()
+const hours = getTime.getHours()
+const minutes = getTime.getMinutes() 
+
+    
+    todaysTime.innerHTML = `${hours}:${minutes}`
+    setInterval(updateTime, 1000)
+    
+};
+
+updateTime()
 todaysDate.innerHTML = `${day}/ ${month}/${year}`
-todaysTime.innerHTML = `${hours}:${minutes}`
+
 
 
 
