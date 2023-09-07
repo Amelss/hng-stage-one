@@ -19,7 +19,7 @@ const minutes = getTime.getMinutes()
 };
 
 updateTime()
-todaysDate.innerHTML = `${day}/ ${month}/${year}`
+todaysDate.innerHTML = `${day}-${month}-${year}`
 
 
 

@@ -1,10 +1,36 @@
+*{
+   font-family: 'Lato', sans-serif;
+    
+}
+
+body{
+    background-color: #A79AE0;
+}
 img{
     width: 100px;
     height: 150px;
+   
+}
+
+.display-picture{
+    text-align: center;
+   
 }
 
 .grid-container{
     display: grid;
     place-items: center;
     height: 100vh;  
+
+}
+
+.card{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 450px;
+}
+
+.time-date{
+    display: flex;
+   
 }
