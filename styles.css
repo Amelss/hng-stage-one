@@ -1,0 +1,10 @@
+img{
+    width: 100px;
+    height: 150px;
+}
+
+.grid-container{
+    display: grid;
+    place-items: center;
+    height: 100vh;  
+}
