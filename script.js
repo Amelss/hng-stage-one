@@ -10,10 +10,11 @@ const day = new Date().toLocaleString("en-GB", { weekday: "long" });
 const updateTime = function () {
 const getTime = new Date()
 const hours = getTime.getHours()
-const minutes = `${getTime.getMinutes()}`.padStart(2,0)
+    const minutes = `${getTime.getMinutes()}`.padStart(2, 0)
+    const seconds = `${getTime.getSeconds()}`.padStart(2, 0);
 
     
-    todaysTime.innerHTML = `${hours}:${minutes}`
+    todaysTime.innerHTML = `${hours}:${minutes}:${seconds}`
     setInterval(updateTime, 1000)
     
 };
