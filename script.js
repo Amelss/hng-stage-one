@@ -1,18 +1,16 @@
 const todaysDate = document.getElementById("currentDate")
 const todaysTime = document.getElementById('currentTime')
-
 const getDate = new Date()
-const day = new Date().toLocaleString("en-GB", { weekday: "long" });
+const day = getDate.toLocaleString("en-GB", { weekday: "long" });
 const time = getDate.toUTCString()
 
 
 
 todaysTime.innerHTML = `Time: ${time}`
-
 todaysDate.innerHTML = `Day: ${day}`
 
 
-console.log(time);
+
 
 
 
