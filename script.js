@@ -4,24 +4,17 @@ const todaysTime = document.getElementById('currentTime')
 const getDate = new Date()
 const month = getDate.getMonth()
 const year = getDate.getFullYear()
-const day = new Date().toLocaleString("en-GB", { weekday: "short" });
+const day = new Date().toLocaleString("en-GB", { weekday: "long" });
+const time = getDate.toUTCString()
 
 
-const updateTime = function () {
-const getTime = new Date()
-const hours = getTime.getHours()
-    const minutes = `${getTime.getMinutes()}`.padStart(2, 0)
-    const seconds = `${getTime.getSeconds()}`.padStart(2, 0);
 
-    
-    todaysTime.innerHTML = `${hours}:${minutes}:${seconds} GMT`
-    setInterval(updateTime, 1000)
-    
-};
+todaysTime.innerHTML = `Time: ${time}`
 
-updateTime()
-todaysDate.innerHTML = `${day}, ${month}, ${year}`
+todaysDate.innerHTML = `Day: ${day}`
 
+
+console.log(time);
 
 
 
