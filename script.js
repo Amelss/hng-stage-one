@@ -6,8 +6,8 @@ const time = getDate.toUTCString()
 
 
 
-todaysTime.innerHTML = `Time: ${time}`
-todaysDate.innerHTML = `Day: ${day}`
+todaysTime.innerHTML = `Current Time: ${time}`
+todaysDate.innerHTML = `Current Day: ${day}`
 
 
 
